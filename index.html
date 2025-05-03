@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ကိုယ်ပိုင် ဝက်ဘ်ဆိုဒ်</title>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Profile" class="profile-img">
+        <h1>မင်္ဂလာပါ! ကျွန်တော့်နာမည်က ကိုကိုဖြစ်ပါတယ်</h1>
+        <p>အထက်တန်းကျောင်းသား | အင်္ဂလိပ်စာနှင့် ပရိုဂရမ်းမင်း ဝါသနာရှင်</p>
+    </header>
+
+    <nav>
+        <a href="#about">ကျွန်တော်အကြောင်း</a>
+        <a href="#hobbies">ဝါသနာများ</a>
+        <a href="#contact">ဆက်သွယ်ရန်</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>ကျွန်တော်အကြောင်း</h2>
+            <p>ကျွန်တော်က အထက်တန်းကျောင်းသားတစ်ယောက်ဖြစ်ပြီး အင်္ဂလိပ်စာနဲ့ ကွန်ပျူတာပရိုဂရမ်းမင်းကို စိတ်ဝင်စားပါတယ်။ GitHub မှာ ကိုယ်ပိုင် website ဖန်တီးဖို့ လေ့လာနေပါတယ်။</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>ကျွန်တော့်ဝါသနာများ</h2>
+            <ul>
+                <li>အင်္ဂလိပ်စာလေ့လာခြင်း</li>
+                <li>ဝက်ဘ်ဆိုဒ်ဖန်တီးခြင်း</li>
+                <li>ဂီတနားထောင်ခြင်း</li>
+                <li>အားကစားလုပ်ခြင်း</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>ဆက်သွယ်ရန်</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">နာမည်:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">အီးမေးလ်:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">မက်ဆေ့ချ်:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">ပို့ရန်</button>
+            </form>
+            <div id="thankYouMessage" class="hidden">
+                <p>ကျေးဇူးတင်ပါတယ်! သင့်မက်ဆေ့ချ်ကို လက်ခံရရှိပါပြီ။</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ကိုကို၏ ကိုယ်ပိုင် ဝက်ဘ်ဆိုဒ်</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
